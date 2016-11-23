@@ -1,0 +1,42 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "dependencies": {
+    "lib": {
+      "version": "1.0.0",
+      "from": "../lib",
+      "resolved": "file:../lib",
+      "dependencies": {
+        "small-uuid": {
+          "version": "1.0.1",
+          "from": "small-uuid@>=1.0.1 <2.0.0",
+          "resolved": "https://registry.npmjs.org/small-uuid/-/small-uuid-1.0.1.tgz",
+          "dependencies": {
+            "node-uuid": {
+              "version": "1.4.7",
+              "from": "node-uuid@>=1.4.7 <2.0.0",
+              "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz"
+            }
+          }
+        }
+      }
+    },
+    "reference-node-module": {
+      "version": "1.0.0",
+      "from": "https://github.com/sethmcl/reference-node-module/archive/1.1.0.tar.gz",
+      "resolved": "https://github.com/sethmcl/reference-node-module/archive/1.1.0.tar.gz",
+      "dependencies": {
+        "small-uuid": {
+          "version": "1.0.1",
+          "from": "https://registry.npmjs.org/small-uuid/-/small-uuid-1.0.1.tgz",
+          "resolved": "https://registry.npmjs.org/small-uuid/-/small-uuid-1.0.1.tgz"
+        },
+        "node-uuid": {
+          "version": "1.4.7",
+          "from": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz",
+          "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.7.tgz"
+        }
+      }
+    }
+  }
+}
